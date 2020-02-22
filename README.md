@@ -20,7 +20,7 @@ Data for 1000+ hotels in New York City from hotels.com, one of the most popluar 
 ### Features and Target
 10 features were engineered using the scraped data:
 
-Features:
+**Features**:
 - Categorical:
   - restaurant
   - fitness center
@@ -35,7 +35,7 @@ Features:
   - number of rooms
   - price
 
-- Target:
+**Target**:
   - star
 
 Some feature engineering and data cleaning: 
@@ -105,7 +105,7 @@ To answer this question, I plotted out the Feature Importance of the 2 sets of d
   
   ![Feature Importance without price](Images/feature_importance_without_price.png)
   
-As you can see, the price feature's importance is much higher comparting to the other features. Also, all the scores go up:
+The price feature's importance is much higher comparting to the other features. Also, all the scores go up:
 - Accuracy increases at least 4% for all models
 - Precision increases at least 3% and at most 15% 
 - Recall increases at least 3% and at most 12%
