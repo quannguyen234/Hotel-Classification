@@ -7,7 +7,7 @@
 - Answer the question: "Is it true that the more expensive the higher the tier of a hotel?"
 
 ### Dataset
-Data for 1000+ hotels in New York City from hotels.com, one of the most popluar websites for booking hotel around the world with substantial information hotels:
+Data for 1000+ hotels in New York City from hotels.com, one of the most popluar websites for booking hotel around the world with substantial information:
 - Hotel Name and Location
 - Hotel Star
 - Base Price
