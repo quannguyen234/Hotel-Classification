@@ -90,7 +90,7 @@ Ranking after hyperparameter tunning:
   - Recal: Economy 86%, Luxury 62%, Midscale 46%
   
 ### Best Performing Model
-I decided to choose Random Forest as the winner, and the reasons are:
+I decided to choose **Random Forest** as the winner, and the reasons are:
 - Accuracy improved from 57.5% to 65.9%. Comparing to a random guess, which is 33%, the model accuracy is twice as much.
 - I wanted to minimize type I error so I picked a model with High Precision. For example, if I booked and paid for a hotel with luxurious amenities, and they give me an Economy class hotel with no pool, no spa and no clean towels. I would be so mad. 
 - Recall is also high for Random Forest, but it would not be as important as Precision because I think it’s better to miss out on some hotels in the tier than to get the wrong tier for a hotel.
